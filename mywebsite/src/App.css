@@ -1,0 +1,48 @@
+body {
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.navbar {
+  border-bottom:1px solid #fff;
+  border-top: 1px solid #fff;
+  width: 100%;
+  position:absolute;
+  bottom: 40%;
+}
+
+
+.navbar ul {
+  list-style: none;
+  text-align: center;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar a {
+  text-decoration: none;
+  width: 100px;
+  display: block;
+  text-align: center;
+  color: #fff;
+
+}
+
+.navbar a:hover {
+  color: purple;
+  font-weight: bolder;
+}
+
+.footer {
+  height: 100px;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  border-top: 1px #fff solid;
+  text-align: center;
+  line-height: 100px;
+}
